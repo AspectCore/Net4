@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AspectCore.Extensions.Net4</id>
+    <version>0.1.2</version>
+    <title>AspectCore.Extensions.Net4</title>
+    <authors>Lemon</authors>
+    <owners>AspectCore</owners>
+    <licenseUrl>https://github.com/AspectCore/Net4/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/AspectCore/Net4</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/e10d60c45b153e752f132368c138a29b</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AspectCore is an AOP-based cross platform framework for .NET Standard.</description>
+    <tags>DynamicProxy Aop Aspect AspectCore Intercepter</tags>
+    <packageTypes>
+      <packageType name="Dependency" />
+    </packageTypes>
+    <dependencies>
+            <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+            <dependency id="Autofac" version="3.5.2" />
+        </dependencies>
+  </metadata>
+</package>
